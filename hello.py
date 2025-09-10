@@ -1,0 +1,5 @@
+name = input('please what is your name:')
+age = input('your age:')
+sentence = (f'my name is {name}, \nI am {age} years old') 
+print(sentence.count('e'))
+print(sentence.capitalize())
