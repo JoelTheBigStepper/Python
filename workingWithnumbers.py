@@ -6,3 +6,6 @@ first_num = input("input first number:")
 second_num = input("input second number:")
 total = int(first_num) + int(second_num)
 print(total)
+
+# name = "John"
+# print("hello, " + name)
