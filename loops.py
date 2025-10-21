@@ -1,27 +1,30 @@
-for i in range(5):
-    print(i)
-    if i == 3:
-        break
+# for i in range(5):
+#     print(i)
+#     if i == 3:
+#         break
 
 
 
 
 for i in range(10):
     print('hello world', i)
+    if i == 2:
+        continue
+    elif i == 5:
+        print('hello humans', i +1)
+        continue
 
 
-
-
-height = 1.745
-guess = 0
-while height != guess:
-    guess = float(input('input height:'))
-    if guess > height:
-        print('greater than height')
-    elif guess < height:
-        print('lesser than height')
-    else:
-        print('correct height')
+# height = 1.745
+# guess = 0
+# while height != guess:
+#     guess = float(input('input height:'))
+#     if guess > height:
+#         print('greater than height')
+#     elif guess < height:
+#         print('lesser than height')
+#     else:
+#         print('correct height')
 
 # count = 0
 #     count += 1
