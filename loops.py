@@ -1,10 +1,29 @@
-# for i in range(5):
-#     print(i)
+for i in range(5):
+    print(i)
+    if i == 3:
+        break
 
+
+
+
+for i in range(10):
+    print('hello world', i)
+
+
+
+
+height = 1.745
+guess = 0
+while height != guess:
+    guess = float(input('input height:'))
+    if guess > height:
+        print('greater than height')
+    elif guess < height:
+        print('lesser than height')
+    else:
+        print('correct height')
 
 # count = 0
-# while count <= 5:
-#     print(count)
 #     count += 1
 
 
@@ -28,15 +47,15 @@
 
 
 # Nested Loops and Loop Control Statements
-for num in range(2, 10):
-    for i in range(2, num): 
-        if num % i == 0:
-            print(f"{num} is not prime")
-            break
-    else:
-        print(f"{num} is prime")
+# for num in range(2, 10):
+#     for i in range(2, num): 
+#         if num % i == 0:
+#             print(f"{num} is not prime")
+#             break
+#     else:
+#         print(f"{num} is prime")
 
 
-for i in range(3):
-    for j in range(2):
-        print(f"i: {i}, j: {j}")
+# for i in range(3):
+#     for j in range(2):
+#         print(f"i: {i}, j: {j}")
