@@ -4,15 +4,24 @@
 #         break
 
 
+# for i in range(11):
+#     if i == 7:
+#         print('it is', i,'am wake up')
 
 
-for i in range(10):
-    print('hello world', i)
-    if i == 2:
-        continue
-    elif i == 5:
-        print('hello humans', i +1)
-        continue
+# for i in range(1, 13):
+#     for j in range(1, 13):
+#         print(i , j, end="\t")
+#     print()  # Move to new line after each row
+
+
+# for i in range(10):
+#     print('hello world', i)
+#     if i == 2:
+#         continue
+#     elif i == 5:
+#         print('hello humans', i +1)
+#         continue
 
 
 # height = 1.745
@@ -59,6 +68,10 @@ for i in range(10):
 #         print(f"{num} is prime")
 
 
-# for i in range(3):
-#     for j in range(2):
+# for i in range(4):
+#     for j in range(4):
 #         print(f"i: {i}, j: {j}")
+
+for i in range(10, -1, -1):
+    print(i)
+print("Liftoff!")
